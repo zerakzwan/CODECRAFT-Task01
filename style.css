@@ -1,0 +1,136 @@
+:root{
+    --primary-color:  #081129;
+    --second-color: rgb(56, 200, 239);
+    --dark-color: #020713ee;
+    --red-color:rgb(220, 36, 79);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head-container{
+    background-color: var(--primary-color);
+
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+    padding: 1.5rem;
+}
+.top-nav ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.top-nav .logo{
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.top-nav span{
+    color: var(--second-color);
+}
+.top-nav ul li{
+    margin: 0.8rem;
+}
+.top-nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 0.3s;
+}
+.head-container img {
+    border-top-left-radius: 60%;
+    border-top-right-radius: 50%;
+    box-shadow: 0 0 50px 10px rgba(55, 174, 207, 0.7), inset 0 0 50px 10px rgba(55, 174, 207, 0.2);
+}
+.side-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin: 3rem;
+    color: whitesmoke;
+    margin-bottom: 0;
+}
+.content{
+    margin-right: 6rem;
+}
+.content span {
+    color: var(--second-color);
+    font-weight: bold;
+}
+.social-links ul{
+    display: flex;  
+    margin-top: 1rem;
+    list-style-type: none;
+}
+.social-links ul li i{
+    color: var(--second-color);
+    margin: 0.2rem;
+    font-size: 17px;
+
+}
+
+.side-btn{
+    margin-top: 1rem;
+}
+.side-btn .btn1{
+    background-color: var(--second-color);
+    color: black;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+    width: 5rem;
+    border: 1px solid black;
+}
+.side-btn .btn2{
+    color: var(--second-color);
+    background-color: var(--primary-color);
+    border: 1px solid whitesmoke;
+    border-radius: 0.2rem;    
+    padding: 0.2rem;
+}
+
+.main-content{
+    background-color: var(--dark-color);
+}
+.section1{
+    margin: 0 3rem;
+    padding: 1.5rem;
+    padding-top: 2.5rem;
+    display: flex;
+
+}
+.articles{
+    margin: 0 3rem;
+    color: whitesmoke;
+    font-size: small;
+}
+.article2{
+    margin: 1rem 0;
+}
+.article2 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+}
+.article2 ul li{
+    margin-right: 5rem;
+}
+.article2 ul li a{
+    text-decoration: none;
+    color: var(--second-color);
+    font-size: medium;
+}
+.article2 small{
+    color: var(--red-color);
+}
